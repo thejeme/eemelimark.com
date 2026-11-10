@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
-const { faGithub, faLinkedin } = require('@fortawesome/free-brands-svg-icons');
+const { faGithub, faItchIo, faLinkedin } = require('@fortawesome/free-brands-svg-icons');
 const { faAngleUp, faEnvelope } = require('@fortawesome/free-solid-svg-icons');
 
 const sourceDir = path.resolve(__dirname, '../src/assets');
@@ -16,6 +16,7 @@ const icons = {
   'angle-up': faAngleUp,
   envelope: faEnvelope,
   github: faGithub,
+  'itch-io': faItchIo,
   linkedin: faLinkedin
 };
 
